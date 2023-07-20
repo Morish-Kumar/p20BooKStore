@@ -68,6 +68,7 @@ function App() {
       />)}
 
       <Layout>
+        <button>check</button>
         {showCart && <Cart />}
         <Products />
       </Layout>
